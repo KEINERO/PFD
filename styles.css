@@ -1,0 +1,40 @@
+/* Estilos Generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Establece la fuente 'Roboto' para el cuerpo del documento */
+    margin: 0; /* Elimina el margen por defecto */
+    padding-top: 56px; /* Ajuste para que el contenido no quede oculto detrás de la barra de navegación fija */
+    color: #333; /* Color de texto gris oscuro */
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Fondo con un gradiente de azul claro a oscuro */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Añade una sombra al texto para hacerlo más visible sobre el fondo */
+}
+
+/* Botones */
+.btn-light {
+    border: 2px solid #fff; /* Establece un borde blanco para los botones */
+    transition: all 0.3s ease; /* Añade una transición suave al cambiar de estado (como al hacer hover) */
+}
+
+.btn-light:hover {
+    background-color: #fff; /* Cambia el fondo a blanco cuando se pasa el ratón por encima */
+    color: #007bff; /* Cambia el color del texto a azul cuando el ratón pasa por encima */
+}
+
+/* Footer */
+footer a {
+    text-decoration: none; /* Elimina el subrayado del enlace en el pie de página */
+    color: #00d1b2; /* Establece el color del enlace a un verde azulado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Añade subrayado cuando se pasa el ratón sobre el enlace */
+}
+
+/* Navegación */
+.navbar-brand {
+    font-weight: bold; /* Establece el texto de la marca de la barra de navegación en negrita */
+    letter-spacing: 1px; /* Añade un espaciado entre las letras de la marca */
+}

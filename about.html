@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Definir la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para garantizar la responsividad en dispositivos móviles -->
+    <title>Sobre Mí - Portafolio</title>
+    
+    <!-- Enlace al archivo CSS de Bootstrap (para estilos prediseñados) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Enlace a tus estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+        <!-- Barra fija en la parte superior (se queda visible al hacer scroll) -->
+        <div class="container">
+            <!-- Nombre del sitio que funciona como un enlace a la página principal -->
+            <a class="navbar-brand" href="#">Keiner Javier Ortega Blanco</a>
+            
+            <!-- Botón para que el menú sea accesible en dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Enlace a la página de inicio -->
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    
+                    <!-- Enlace a la página "Sobre Mí" (actualmente activa) -->
+                    <li class="nav-item"><a class="nav-link active" href="about.html">Sobre Mí</a></li>
+                    
+                    <!-- Enlace a la página "Portafolio" -->
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portafolio</a></li>
+                    
+                    <!-- Enlace a la página de "Contacto" -->
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container my-5">
+        <div class="row text-center">
+            <!-- Columna para la foto de perfil y descripción -->
+            <div class="col-md-4">
+                <!-- Imagen redonda con clase de Bootstrap -->
+                <img src="WhatsApp Image 2024-11-26 at 1.35.21 AM.jpeg" alt="Foto de Perfil" class="rounded-circle img-fluid mb-3" style="max-width: 200px;">
+                <h3>Sobre Mí</h3>
+                <h3>TECNOLOGO EN MANTENIMIENTO DE EQUIPOS DE COMPUTO</h3>
+                <!-- Descripción personal -->
+                <p class="lead">Soy una persona responsable, proactiva y apasionada por el mantenimiento de equipos y el diseño de cableado estructurado.</p>
+            </div>
+            <div class="col-md-8">
+                <!-- Título de la sección de habilidades -->
+                <h3></h3>
+                <h3>Habilidades</h3>
+                
+                <!-- Barra de progreso para la habilidad "Trabajo en equipo" -->
+                <div class="mb-3">
+                    <label>Trabajo en equipo</label>
+                    <div class="progress">
+                        <!-- Barra de progreso con el porcentaje de habilidad -->
+                        <div class="progress-bar bg-success" style="width: 99.9%;">99.9%</div>
+                    </div>
+                </div>
+                
+                <!-- Barra de progreso para la habilidad "Puntualidad" -->
+                <div class="mb-3">
+                    <label>Puntualidad</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 99.9%;">99.9%</div>
+                    </div>
+                </div>
+                
+                <!-- Barra de progreso para la habilidad "Compromiso" -->
+                <div class="mb-3">
+                    <label>Compromiso</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 99.9%;">99.9%</div>
+                    </div>
+                </div>
+                
+                <!-- Barra de progreso para la habilidad "Creatividad" -->
+                <div class="mb-3">
+                    <label>Creatividad</label>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" style="width: 99.9%;">99.9%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección adicional con una breve descripción -->
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <h3>¿Por qué elegir mis servicios?</h3>
+                <p>
+                    Mi pasión por el mantenimiento preventivo, junto con mis habilidades en diseño de redes y cableado, me han permitido trabajar en diversas empresas. Me esfuerzo por brindar soluciones efectivas y mejorar la infraestructura tecnológica de cada lugar donde trabajo.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <!-- Información sobre los derechos de autor -->
+        <p>&copy; 2024 Keiner Javier Ortega Blanco</p>
+        
+        <!-- Enlace al correo electrónico -->
+        <p>Email: <a href="mailto:keinerortega09@hotmail.com" class="text-white">keinerortega09@hotmail.com</a></p>
+        
+        <!-- Enlace al número de teléfono -->
+        <p>Teléfono: <a href="tel:+573005545125" class="text-white">+57 300 554 5125</a></p>
+        
+        <!-- Enlaces a redes sociales -->
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Facebook</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <!-- Enlace al archivo de JavaScript de Bootstrap para las interacciones -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
